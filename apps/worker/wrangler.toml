@@ -8,7 +8,7 @@ workers_dev = true
 # デフォルト = テスト環境
 # 使い方: npx wrangler deploy
 # ═══════════════════════════════════════════════════════════════
-account_id = "YOUR_DEV_ACCOUNT_ID"
+account_id = "8e57a1c0dd02d015910bc64d549025ee"
 
 # Workers Cache pilot. Enabled only for the private test Worker; production is
 # explicitly disabled below until cache hit rate and auth isolation are proven.
@@ -87,7 +87,7 @@ CF_ACCOUNT_ID = "YOUR_DEV_ACCOUNT_ID"
 # D1:     npx wrangler d1 execute your-database --env production --remote --file ...
 # ═══════════════════════════════════════════════════════════════
 [env.production]
-account_id = "YOUR_ACCOUNT_ID"
+account_id = "8e57a1c0dd02d015910bc64d549025ee"
 compatibility_flags = ["nodejs_compat"]
 
 [env.production.cache]
