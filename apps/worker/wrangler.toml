@@ -31,9 +31,9 @@ binding = "DB"
 database_name = "line-harness"
 database_id = "YOUR_DEV_D1_DATABASE_ID"
 
-[[r2_buckets]]
-binding = "IMAGES"
-bucket_name = "line-harness-images"
+# [[r2_buckets]]
+# binding = "IMAGES"
+# bucket_name = "line-harness-images"
 
 # ═══════════════════════════════════════════════════════════════
 # TenantScheduler DO — 定期ジョブ (配信・リマインド・insight 取得) を自走させる。
@@ -103,9 +103,9 @@ binding = "DB"
 database_name = "line-crm"
 database_id = "YOUR_D1_DATABASE_ID"
 
-[[env.production.r2_buckets]]
-binding = "IMAGES"
-bucket_name = "line-harness-images"
+# [[env.production.r2_buckets]]
+# binding = "IMAGES"
+# bucket_name = "line-harness-images"
 
 # バインディングは環境ごとに継承されないので production にも明示する。
 # name / class_name はデフォルト環境と揃えること (上の注意書き参照)。
